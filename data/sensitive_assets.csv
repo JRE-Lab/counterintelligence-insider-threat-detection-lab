@@ -1,0 +1,12 @@
+diff --git a/data/sensitive_assets.csv b/data/sensitive_assets.csv
+new file mode 100644
+index 0000000000000000000000000000000000000000..981074bf4f2ae3464c8f4162bee5e22e291dd22a
+--- /dev/null
++++ b/data/sensitive_assets.csv
+@@ -0,0 +1,6 @@
++asset_id,path,required_clearance,owner
++s001,/srv/ci/briefings/weekly_briefing.pdf,Secret,CI
++s002,/srv/ci/case_files/case_delta.zip,Top Secret,CI
++s003,/srv/ci/operations/field_ops_plan.docx,Top Secret,CI
++s004,/srv/finance/payroll_q3.xlsx,Secret,Finance
++s005,/srv/hr/personnel_actions.csv,Secret,HR
