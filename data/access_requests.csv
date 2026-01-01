@@ -1,0 +1,12 @@
+diff --git a/data/access_requests.csv b/data/access_requests.csv
+new file mode 100644
+index 0000000000000000000000000000000000000000..da4447e9a7e98d6e6972e20e31157d093f24d96e
+--- /dev/null
++++ b/data/access_requests.csv
+@@ -0,0 +1,6 @@
++request_id,user_id,asset_id,request_date,status,justification
++r1001,u001,s001,2024-09-10,Approved,Weekly brief support
++r1002,u004,s002,2024-09-11,Pending,Contractor support request
++r1003,u007,s003,2024-09-12,Approved,Sysadmin backup validation
++r1004,u006,s004,2024-09-12,Denied,Facilities audit request
++r1005,u003,s005,2024-09-13,Approved,HR compliance review
