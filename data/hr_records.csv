@@ -1,0 +1,15 @@
+diff --git a/data/hr_records.csv b/data/hr_records.csv
+new file mode 100644
+index 0000000000000000000000000000000000000000..a23a498a331b4c4eb34545faa6e916077be7c2e3
+--- /dev/null
++++ b/data/hr_records.csv
+@@ -0,0 +1,9 @@
++user_id,name,role,clearance,manager,start_date,risk_tier
++u001,Avery Chen,Analyst,Secret,Jordan Lee,2019-03-12,Low
++u002,Blake Ortiz,Engineer,Top Secret,Jordan Lee,2017-07-01,Medium
++u003,Casey Singh,HR Specialist,Secret,Morgan Price,2021-11-02,Low
++u004,Dana Patel,Contractor,Confidential,Morgan Price,2023-02-15,High
++u005,Elliot Kim,Data Scientist,Top Secret,Jordan Lee,2016-05-20,Medium
++u006,Finley Adams,Facilities,Confidential,Morgan Price,2020-09-30,Low
++u007,Grey Howard,SysAdmin,Secret,Jordan Lee,2018-01-08,High
++u008,Harper Nolan,Compliance,Secret,Morgan Price,2015-12-10,Low
