@@ -1,0 +1,23 @@
+diff --git a/lab/config.json b/lab/config.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..4ba531f9706dc3ba3e7f33fedaea0218dca279ef
+--- /dev/null
++++ b/lab/config.json
+@@ -0,0 +1,17 @@
++{
++  "simulation": {
++    "days": 7,
++    "events_per_user_per_day": [12, 30],
++    "anomaly_users": ["u004", "u007"],
++    "seed": 42
++  },
++  "detection": {
++    "off_hours_start": 20,
++    "off_hours_end": 6,
++    "large_transfer_bytes": 50000000,
++    "failed_login_threshold": 5,
++    "failed_login_window_minutes": 60,
++    "usb_exfil_window_minutes": 60,
++    "daily_file_access_threshold": 25
++  }
++}
